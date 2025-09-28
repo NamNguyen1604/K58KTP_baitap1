@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Mã hóa Vigenère</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 Vigenère Cipher</h1>
+
+    <label for="key">🔑 Từ khóa:</label>
+    <input type="text" id="key" placeholder="Ví dụ: KEY">
+
+    <label for="inputText">📝 Nội dung:</label>
+    <textarea id="inputText" placeholder="Nhập văn bản"></textarea>
+
+    <div class="btn-group">
+      <button id="encodeBtn">Mã hóa</button>
+      <button id="decodeBtn">Giải mã</button>
+    </div>
+
+    <h3>📌 Kết quả:</h3>
+    <textarea id="outputText" readonly></textarea>
+  </div>
+
+  <script src="main.js"></script>
+  <footer class="footer">© 2025 Nguyễn Phương Nam</footer>
+</body>
+</html>

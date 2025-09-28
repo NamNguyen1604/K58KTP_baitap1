@@ -1,0 +1,89 @@
+/* Toàn bộ trang */
+body {
+  background: #f0f9f4;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Khung chính */
+.container {
+  width: 420px;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Tiêu đề */
+h1 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+/* Label */
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Ô nhập liệu & kết quả */
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background: #e8f5e9;
+  font-size: 16px;
+  text-align: center;
+  color: #1b5e20;
+  font-weight: bold;
+  box-sizing: border-box;
+  resize: none;
+}
+
+/* Nhóm nút */
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Nút bấm */
+button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+/* Tiêu đề kết quả */
+h2 {
+  margin-top: 20px;
+  color: #2e7d32;
+}
+
+/* Ô kết quả */
+#outputText {
+  min-height: 80px;
+}
